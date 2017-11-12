@@ -39,7 +39,7 @@
         <webjars-bootstrap.version>2.3.0</webjars-bootstrap.version>
         <webjars-jquery-ui.version>1.10.3</webjars-jquery-ui.version>
         <webjars-jquery.version>2.0.3-1</webjars-jquery.version>
-        <dandelion.version>1.1.1</dandelion.version>
+        <dandelion.version>1.1.2-SNAPSHOT</dandelion.version>
         <dandelion.datatables.version>1.1.0</dandelion.datatables.version>
 
         <cobertura.version>2.7</cobertura.version>
@@ -296,7 +296,7 @@
 
         <!-- Dandelion -->
         <dependency>
-            <groupId>com.github.dandelion</groupId>
+            <groupId>com.github.travhill</groupId>
             <artifactId>dandelion-jsp</artifactId>
             <version>${dandelion.version}</version>
         </dependency>
