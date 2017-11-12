@@ -60,12 +60,16 @@
     </dependencyManagement>
 	<repositories>
 	 <repository>
-         <id>deployment</id>
+         <id>central</id>
+         
+         <url>http://127.0.0.1:8081/nexus/content/repositories/central/</url>
+      </repository>
+         <id>releases</id>
          
          <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
       </repository>
 	  <repository>
-         <id>deployments</id>
+         <id>snapshots</id>
          
          <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
 		 <snapshots>
@@ -279,7 +283,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-			<version>4.11-SNAPSHOT</version>
+			<version>4.12</version>
             <scope>test</scope>
  </dependency>
         <dependency>
