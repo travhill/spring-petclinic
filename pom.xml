@@ -64,6 +64,7 @@
          
          <url>http://127.0.0.1:8081/nexus/content/repositories/central/</url>
       </repository>
+      <repository>
          <id>releases</id>
          
          <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
