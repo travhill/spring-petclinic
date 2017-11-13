@@ -296,7 +296,7 @@
 
         <!-- Dandelion -->
         <dependency>
-            <groupId>com.github.dandelion</groupId>
+            <groupId>com.github.travhill</groupId>
             <artifactId>dandelion-jsp</artifactId>
             <version>${dandelion.version}</version>
         </dependency>
